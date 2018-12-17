@@ -1,9 +1,7 @@
 # contao-ifautoitem-bundle
-Manage redirects in the contao backend
-
-This bundle uses the initializeSystem Hook to redirect URLs before the page will be rendered, so handle with care.
+Show oder hide elements in dependency of a reader module
 
 ## Options: ##
-- redirect to 404 (useful for news/calendar reader pages without auto item)
-- redirect static URLs 
-- redirect via regex rules (search and replace)
+- Show always
+- Show when there is NO item
+- Show only when there IS an item
